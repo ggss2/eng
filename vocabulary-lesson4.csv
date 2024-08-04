@@ -1,0 +1,48 @@
+Korean,Correct,Wrong,WrongKorean
+축구,soccer,basketball,농구
+농구,basketball,baseball,야구
+야구,baseball,tennis,테니스
+테니스,tennis,golf,골프
+골프,golf,volleyball,배구
+배구,volleyball,swimming,수영
+수영,swimming,running,달리기
+달리기,running,cycling,사이클링
+사이클링,cycling,boxing,복싱
+복싱,boxing,wrestling,레슬링
+레슬링,wrestling,judo,유도
+유도,judo,karate,가라테
+가라테,karate,taekwondo,태권도
+태권도,taekwondo,yoga,요가
+요가,yoga,gymnastics,체조
+체조,gymnastics,skating,스케이팅
+스케이팅,skating,skiing,스키
+스키,skiing,snowboarding,스노보드
+스노보드,snowboarding,climbing,클라이밍
+클라이밍,climbing,hiking,하이킹
+하이킹,hiking,archery,양궁
+양궁,archery,fencing,펜싱
+펜싱,fencing,shooting,사격
+사격,shooting,rowboat,보트
+보트,rowboat,rafting,래프팅
+래프팅,rafting,kayaking,카약
+카약,kayaking,sailing,항해
+항해,sailing,diving,다이빙
+다이빙,diving,surfing,서핑
+서핑,surfing,water polo,수구
+수구,water polo,handball,핸드볼
+핸드볼,handball,hockey,하키
+하키,hockey,cricket,크리켓
+크리켓,cricket,table tennis,탁구
+탁구,table tennis,badminton,배드민턴
+배드민턴,badminton,squash,스쿼시
+스쿼시,squash,softball,소프트볼
+소프트볼,softball,dodgeball,피구
+피구,dodgeball,billiards,당구
+당구,billiards,bowling,볼링
+볼링,bowling,chess,체스
+체스,chess,darts,다트
+다트,darts,marathon,마라톤
+마라톤,marathon,triathlon,철인 3종 경기
+철인 3종 경기,triathlon,decathlon,10종 경기
+10종 경기,decathlon,weightlifting,역도
+역도,weightlifting,boxing,복싱

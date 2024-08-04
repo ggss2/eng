@@ -1,0 +1,55 @@
+Korean,Correct,Wrong,WrongKorean
+자동차,car,truck,트럭
+트럭,truck,van,밴
+밴,van,bus,버스
+버스,bus,train,기차
+기차,train,subway,지하철
+지하철,subway,tram,트램
+트램,tram,taxi,택시
+택시,taxi,plane,비행기
+비행기,plane,helicopter,헬리콥터
+헬리콥터,helicopter,ship,배
+배,ship,boat,보트
+보트,boat,yacht,요트
+요트,yacht,sailboat,돛단배
+돛단배,sailboat,kayak,카약
+카약,kayak,canoe,카누
+카누,canoe,submarine,잠수함
+잠수함,submarine,hovercraft,호버크래프트
+호버크래프트,hovercraft,jet ski,제트스키
+제트스키,jet ski,rocket,로켓
+로켓,rocket,spaceship,우주선
+우주선,spaceship,blimp,비행선
+비행선,blimp,hot air balloon,열기구
+열기구,hot air balloon,cable car,케이블카
+케이블카,cable car,motorcycle,오토바이
+오토바이,motorcycle,scooter,스쿠터
+스쿠터,scooter,bicycle,자전거
+자전거,bicycle,unicycle,외발자전거
+외발자전거,unicycle,tricycle,세발자전거
+세발자전거,tricycle,wheelbarrow,손수레
+손수레,wheelbarrow,lawn mower,잔디깎이
+잔디깎이,lawn mower,bulldozer,불도저
+불도저,bulldozer,excavator,굴착기
+굴착기,excavator,crane,크레인
+크레인,crane,forklift,지게차
+지게차,forklift,dump truck,덤프트럭
+덤프트럭,dump truck,fire engine,소방차
+소방차,fire engine,ambulance,구급차
+구급차,ambulance,police car,경찰차
+경찰차,police car,tanker,탱커
+탱커,tanker,cargo ship,화물선
+화물선,cargo ship,freight train,화물열차
+화물열차,freight train,tractor,트랙터
+트랙터,tractor,combine harvester,콤바인
+콤바인,combine harvester,pickup truck,픽업트럭
+픽업트럭,pickup truck,minivan,미니밴
+미니밴,minivan,caravan,카라반
+카라반,caravan,coupe,쿠페
+쿠페,coupe,convertible,컨버터블
+컨버터블,convertible,limousine,리무진
+리무진,limousine,sports car,스포츠카
+스포츠카,sports car,sedan,세단
+세단,sedan,hatchback,해치백
+해치백,hatchback,motorhome,캠핑카
+캠핑카,motorhome,motorcoach,모터코치

@@ -1,0 +1,59 @@
+Korean,Correct,Wrong,WrongKorean
+벌,bee,ant,개미
+개미,ant,bee,벌
+나비,butterfly,moth,나방
+나방,moth,butterfly,나비
+매미,cicada,grasshopper,메뚜기
+메뚜기,grasshopper,cicada,매미
+무당벌레,ladybug,beetle,딱정벌레
+딱정벌레,beetle,ladybug,무당벌레
+잠자리,dragonfly,fly,파리
+파리,fly,dragonfly,잠자리
+거미,spider,scorpion,전갈
+전갈,scorpion,spider,거미
+모기,mosquito,gnat,각다귀
+각다귀,gnat,mosquito,모기
+애벌레,caterpillar,larva,유충
+유충,larva,caterpillar,애벌레
+나방,skipper,fruit fly,과실파리
+과실파리,fruit fly,skipper,나방
+집파리,housefly,gnat,각다귀
+지네,centipede,millipede,지네
+지네,millipede,centipede,지네
+개미,ant,termite,흰개미
+흰개미,termite,ant,개미
+벌,wasp,hornet,말벌
+말벌,hornet,wasp,벌
+곤충,insect,arachnid,거미류
+거미류,arachnid,insect,곤충
+나비,monarch,sphinx moth,스핑크스나방
+스핑크스나방,sphinx moth,monarch,나비
+메뚜기,cricket,locust,메뚜기
+메뚜기,locust,cricket,귀뚜라미
+귀뚜라미,cricket,locust,메뚜기
+벼룩,flea,tick,진드기
+진드기,tick,flea,벼룩
+벌레,bug,insect,곤충
+곤충,insect,bug,벌레
+매미,birdwing,silkworm,누에
+누에,silkworm,birdwing,제비나비
+제비나비,birdwing,silkworm,누에
+잠자리,damselfly,mayfly,각다귀
+각다귀,mayfly,damselfly,실잠자리
+실잠자리,damselfly,mayfly,각다귀
+무당벌레,firefly,lightning bug,반딧불이
+반딧불이,lightning bug,firefly,반딧불이
+애벌레,ladybug,ladybird,무당벌레
+무당벌레,ladybird,ladybug,무당벌레
+딱정벌레,stag beetle,scarab,하늘소
+하늘소,scarab,stag beetle,장수하늘소
+장수하늘소,stag beetle,scarab,하늘소
+메뚜기,praying mantis,stick insect,대벌레
+대벌레,stick insect,praying mantis,사마귀
+사마귀,praying mantis,stick insect,대벌레
+모기,mosquito,midge,등에
+등에,midge,mosquito,모기
+벌레,termite,woodworm,목재벌레
+목재벌레,woodworm,termite,흰개미
+파리,horsefly,botfly,살파리
+살파리,horsefly,botfly,파리

@@ -1,0 +1,47 @@
+Korean,Correct,Wrong,WrongKorean
+봄,spring,summer,여름
+여름,summer,autumn,가을
+가을,autumn,winter,겨울
+겨울,winter,spring,봄
+계절,season,weather,날씨
+날씨,weather,climate,기후
+기후,climate,temperature,온도
+온도,temperature,humidity,습도
+습도,humidity,rain,비
+비,rain,snow,눈
+눈,snow,wind,바람
+바람,wind,storm,폭풍
+폭풍,storm,fog,안개
+안개,fog,sun,태양
+태양,sun,moon,달
+달,moon,stars,별
+별,stars,clouds,구름
+구름,clouds,rainbow,무지개
+무지개,rainbow,thunder,천둥
+천둥,thunder,lightning,번개
+번개,lightning,hail,우박
+우박,hail,drizzle,이슬비
+이슬비,drizzle,shower,소나기
+소나기,shower,monsoon,장마
+장마,monsoon,cyclone,사이클론
+사이클론,cyclone,hurricane,허리케인
+허리케인,hurricane,tornado,토네이도
+토네이도,tornado,typhoon,태풍
+태풍,typhoon,blizzard,블리자드
+블리자드,blizzard,heatwave,폭염
+폭염,heatwave,earthquake,지진
+지진,earthquake,flood,홍수
+홍수,flood,drought,가뭄
+가뭄,drought,holiday,휴일
+휴일,holiday,festival,축제
+축제,festival,New Year,새해
+새해,New Year,Christmas,크리스마스
+크리스마스,Christmas,Easter,부활절
+부활절,Easter,Thanksgiving,추수감사절
+추수감사절,Thanksgiving,Halloween,할로윈
+할로윈,Halloween,Valentine's Day,발렌타인데이
+발렌타인데이,Valentine's Day,Children's Day,어린이날
+어린이날,Children's Day,Labor Day,노동절
+노동절,Labor Day,Independence Day,독립기념일
+독립기념일,Independence Day,National Day,국경일
+국경일,National Day,holiday,휴일

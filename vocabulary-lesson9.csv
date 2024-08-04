@@ -1,0 +1,50 @@
+Korean,Correct,Wrong,WrongKorean
+의사,doctor,nurse,간호사
+간호사,nurse,doctor,의사
+선생님,teacher,student,학생
+학생,student,professor,교수
+교수,professor,instructor,강사
+강사,instructor,principal,교장
+교장,principal,counselor,상담가
+상담가,counselor,psychologist,심리학자
+심리학자,psychologist,scientist,과학자
+과학자,scientist,engineer,엔지니어
+엔지니어,engineer,architect,건축가
+건축가,architect,artist,예술가
+예술가,artist,musician,음악가
+음악가,musician,singer,가수
+가수,singer,actor,배우
+배우,actor,director,감독
+감독,director,writer,작가
+작가,writer,journalist,기자
+기자,journalist,reporter,리포터
+리포터,reporter,photographer,사진가
+사진가,photographer,painter,화가
+화가,painter,dancer,무용수
+무용수,dancer,chef,요리사
+요리사,chef,baker,제빵사
+제빵사,baker,butcher,정육점주
+정육점주,butcher,farmer,농부
+농부,farmer,gardener,정원사
+정원사,gardener,florist,꽃집주인
+꽃집주인,florist,shopkeeper,가게주인
+가게주인,shopkeeper,cashier,계산원
+계산원,cashier,accountant,회계사
+회계사,accountant,banker,은행원
+은행원,banker,lawyer,변호사
+변호사,lawyer,judge,판사
+판사,judge,police officer,경찰관
+경찰관,police officer,firefighter,소방관
+소방관,firefighter,paramedic,응급구조사
+응급구조사,paramedic,surgeon,외과의사
+외과의사,surgeon,dentist,치과의사
+치과의사,dentist,pharmacist,약사
+약사,pharmacist,veterinarian,수의사
+수의사,veterinarian,zookeeper,동물원 사육사
+동물원 사육사,zookeeper,astronaut,우주비행사
+우주비행사,astronaut,pilot,조종사
+조종사,pilot,flight attendant,승무원
+승무원,flight attendant,mechanic,정비사
+정비사,mechanic,driver,운전사
+운전사,driver,mailman,우체부
+우체부,mailman,janitor,관리인

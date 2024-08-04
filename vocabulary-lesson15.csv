@@ -1,0 +1,52 @@
+Korean,Correct,Wrong,WrongKorean
+망치,hammer,screwdriver,드라이버
+드라이버,screwdriver,hammer,망치
+톱,saw,wrench,렌치
+렌치,wrench,saw,톱
+못,nail,screw,나사
+나사,screw,nail,못
+드릴,drill,saw,톱
+톱,saw,drill,드릴
+사다리,ladder,rope,로프
+로프,rope,ladder,사다리
+자,ruler,tape measure,줄자
+줄자,tape measure,ruler,자
+플라이어,pliers,clamp,클램프
+클램프,clamp,pliers,플라이어
+삽,shovel,spade,삽
+삽,spade,shovel,삽
+호미,hoe,rake,갈퀴
+갈퀴,rake,hoe,호미
+비틀림,twist,turn,회전
+회전,turn,twist,비틀림
+고리,ring,hook,갈고리
+갈고리,hook,ring,고리
+보호구,protective gear,safety goggles,안전 고글
+안전 고글,safety goggles,protective gear,보호구
+모터,motor,engine,엔진
+엔진,engine,motor,모터
+기계,machine,tool,도구
+도구,tool,machine,기계
+공구,toolbox,tool bag,공구 가방
+공구 가방,tool bag,toolbox,공구 상자
+공구 상자,toolbox,tool bag,공구 가방
+커터,cutting tool,snips,가위
+가위,snips,cutting tool,커터
+포장,packaging,wrapping,포장
+포장,wrapping,packaging,포장
+끈,string,wire,철사
+철사,wire,string,끈
+전선,cable,cord,전기선
+전기선,cord,cable,전선
+전기 드릴,electric drill,cordless drill,충전 드릴
+충전 드릴,cordless drill,electric drill,전기 드릴
+톱날,saw blade,drill bit,드릴 비트
+드릴 비트,drill bit,saw blade,톱날
+펌프,pump,compressor,압축기
+압축기,compressor,pump,펌프
+바퀴,wheel,gear,기어
+기어,gear,wheel,바퀴
+연장,extension,adapter,어댑터
+어댑터,adapter,extension,연장
+계량기,gauge,thermometer,온도계
+온도계,thermometer,gauge,계량기

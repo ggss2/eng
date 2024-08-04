@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>영어단어 학습기</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="logo.png" alt="Logo" class="logo">
+            <nav>
+                <a href="#">Home</a>
+                <div class="dropdown">
+                    <a href="#">Lessons</a>
+                    <div class="dropdown-content">
+                        <button onclick="selectLesson(1)">Lesson 1: Animals</button>
+                        <button onclick="selectLesson(2)">Lesson 2: Food</button>
+                        <button onclick="selectLesson(3)">Lesson 3: Body Parts</button>
+                        <button onclick="selectLesson(4)">Lesson 4: Sports</button>
+                        <button onclick="selectLesson(5)">Lesson 5: Weather and Nature</button>
+                        <button onclick="selectLesson(6)">Lesson 6: School</button>
+                        <button onclick="selectLesson(7)">Lesson 7: Home and Furniture</button>
+                        <button onclick="selectLesson(8)">Lesson 8: Colors and Shapes</button>
+                        <button onclick="selectLesson(9)">Lesson 9: Occupations</button>
+                        <button onclick="selectLesson(10)">Lesson 10: Transportation</button>
+                        <button onclick="selectLesson(11)">Lesson 11: Clothing</button>
+                        <button onclick="selectLesson(12)">Lesson 12: Emotions and Feelings</button>
+                        <button onclick="selectLesson(13)">Lesson 13: Fruits and Vegetables</button>
+                        <button onclick="selectLesson(14)">Lesson 14: Insects and Bugs</button>
+                        <button onclick="selectLesson(15)">Lesson 15: Tools and Equipment</button>
+                        <button onclick="selectLesson(16)">Lesson 16: Musical Instruments</button>
+                        <button onclick="selectLesson(17)">Lesson 17: Vehicles and Machines</button>
+                        <button onclick="selectLesson(18)">Lesson 18: Places and Locations</button>
+                        <button onclick="selectLesson(19)">Lesson 19: Actions and Verbs</button>
+                        <button onclick="selectLesson(20)">Lesson 20: Numbers and Counting</button>
+                        <button onclick="selectLesson(21)">Lesson 21: Days and Months</button>
+                        <button onclick="selectLesson(22)">Lesson 22: Seasons and Holidays</button>
+                        <button onclick="selectLesson(23)">Lesson 23: Fruits and Vegetables</button>
+                    </div>
+                </div>
+                <a href="#">Games</a>
+                <a href="#">Contact</a>
+            </nav>
+        </header>
+
+        <main class="content">
+            <h1 class="program-title">영어단어 학습기</h1>
+
+            <!-- Lesson Selection -->
+            <div id="lesson-selection" class="lesson-selection">
+                <label for="lesson-select">Choose a Lesson:</label>
+                <select id="lesson-select">
+                    <option value="1">Lesson 1: Animals</option>
+                    <option value="2">Lesson 2: Food</option>
+                    <option value="3">Lesson 3: Body Parts</option>
+                    <option value="4">Lesson 4: Sports</option>
+                    <option value="5">Lesson 5: Weather and Nature</option>
+                    <option value="6">Lesson 6: School</option>
+                    <option value="7">Lesson 7: Home and Furniture</option>
+                    <option value="8">Lesson 8: Colors and Shapes</option>
+                    <option value="9">Lesson 9: Occupations</option>
+                    <option value="10">Lesson 10: Transportation</option>
+                    <option value="11">Lesson 11: Clothing</option>
+                    <option value="12">Lesson 12: Emotions and Feelings</option>
+                    <option value="13">Lesson 13: Fruits and Vegetables</option>
+                    <option value="14">Lesson 14: Insects and Bugs</option>
+                    <option value="15">Lesson 15: Tools and Equipment</option>
+                    <option value="16">Lesson 16: Musical Instruments</option>
+                    <option value="17">Lesson 17: Vehicles and Machines</option>
+                    <option value="18">Lesson 18: Places and Locations</option>
+                    <option value="19">Lesson 19: Actions and Verbs</option>
+                    <option value="20">Lesson 20: Numbers and Counting</option>
+                    <option value="21">Lesson 21: Days and Months</option>
+                    <option value="22">Lesson 22: Seasons and Holidays</option>
+                    <option value="23">Lesson 23: Fruits and Vegetables</option>
+                </select>
+            </div>
+
+            <div id="question-number" class="question-number">Question 1</div>
+
+            <div id="word-card" class="word-card">
+                Loading words...
+            </div>
+
+            <div id="voice-input-box" class="voice-input-box">
+                <p>정답을 말해보세요</p>
+            </div>
+
+            <div id="voice-controls" class="voice-controls">
+                <button id="voice-input-btn">음성으로 답하기</button>
+            </div>
+
+            <div class="score-container">
+                <div class="score-bar">
+                    <div id="score-fill" class="score-fill"></div>
+                </div>
+                <div id="score-display" class="score-display">Score: 0</div>
+            </div>
+
+            <div id="result" class="result"></div>
+
+            <div class="voice-settings">
+                <select id="voice-select">
+                    <option value="">Choose Voice</option>
+                </select>
+                <input type="range" id="rate" min="0.5" max="2" value="1" step="0.1">
+                <span id="rate-value">1</span>
+            </div>
+        </main>
+
+        <footer>
+            <p>© 2024 Phonics Learning. All rights reserved. | <a href="#">Contact us</a> | Follow us on social media</p>
+        </footer>
+    </div>
+
+    <audio id="correct-audio" src="correct-sound.mp3"></audio>
+    <audio id="incorrect-audio" src="incorrect-sound.mp3"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>

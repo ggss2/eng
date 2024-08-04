@@ -1,0 +1,46 @@
+Korean,Correct,Wrong,WrongKorean
+자동차,car,bicycle,자전거
+자전거,bicycle,scooter,스쿠터
+스쿠터,scooter,motorcycle,오토바이
+오토바이,motorcycle,truck,트럭
+트럭,truck,van,밴
+밴,van,bus,버스
+버스,bus,train,기차
+기차,train,subway,지하철
+지하철,subway,tram,전차
+전차,tram,ship,배
+배,ship,boat,보트
+보트,boat,ferry,여객선
+여객선,ferry,yacht,요트
+요트,yacht,canoe,카누
+카누,canoe,kayak,카약
+카약,kayak,sailboat,돛단배
+돛단배,sailboat,raft,뗏목
+뗏목,raft,helicopter,헬리콥터
+헬리콥터,helicopter,airplane,비행기
+비행기,airplane,jet,제트기
+제트기,jet,glider,글라이더
+글라이더,glider,parachute,낙하산
+낙하산,parachute,hot air balloon,열기구
+열기구,hot air balloon,spaceship,우주선
+우주선,spaceship,rocket,로켓
+로켓,rocket,satellite,위성
+위성,satellite,hovercraft,호버크래프트
+호버크래프트,hovercraft,submarine,잠수함
+잠수함,submarine,spaceshuttle,우주왕복선
+우주왕복선,spaceshuttle,zeppelin,비행선
+비행선,zeppelin,cable car,케이블카
+케이블카,cable car,monorail,모노레일
+모노레일,monorail,electric car,전기차
+전기차,electric car,gasoline car,휘발유차
+휘발유차,gasoline car,diesel car,디젤차
+디젤차,diesel car,hybrid car,하이브리드차
+하이브리드차,hybrid car,ride,타기
+타기,ride,transport,운송
+운송,transport,transit,이동
+이동,transit,cargo,화물
+화물,cargo,luggage,수하물
+수하물,luggage,baggage,짐
+짐,baggage,freight,화물
+화물,freight,passenger,승객
+승객,passenger,crew,승무원

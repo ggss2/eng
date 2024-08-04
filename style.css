@@ -1,0 +1,214 @@
+/* Existing CSS */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f5ff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  padding: 30px;
+  width: 90%;
+  max-width: 600px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.logo {
+  height: 50px;
+}
+
+nav {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #3366cc;
+  font-weight: bold;
+  position: relative;
+}
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 150px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.dropdown-content button {
+  background-color: white;
+  border: none;
+  color: #3366cc;
+  padding: 8px 16px;
+  text-align: left;
+  text-decoration: none;
+  display: block;
+  font-size: 14px;
+  width: 100%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dropdown-content button:hover {
+  background-color: #f0f5ff;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Remaining CSS styles for other components... */
+.program-title {
+  font-size: 2.5em;
+  color: #3366cc;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.question-number {
+  font-size: 1.2em;
+  color: #666;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.word-card {
+  background-color: #e6f0ff;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.korean-word {
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.choice {
+  background-color: #3366cc;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.choice:hover {
+  background-color: #254e9e;
+}
+
+.voice-input-box {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px 0;
+  min-height: 50px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.voice-controls {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#voice-input-btn {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#voice-input-btn:hover {
+  background-color: #45a049;
+}
+
+.score-container {
+  margin: 20px 0;
+}
+
+.score-bar {
+  background-color: #e0e0e0;
+  height: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.score-fill {
+  background-color: #4caf50;
+  height: 100%;
+  width: 0%;
+  transition: width 0.5s ease-in-out;
+}
+
+.score-display {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.result {
+  text-align: center;
+  margin: 20px 0;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.voice-settings {
+  text-align: center;
+  margin-top: 20px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  color: #666;
+}
+
+@media (max-width: 600px) {
+  .container {
+      width: 95%;
+      padding: 20px;
+  }
+
+  .choice {
+      margin: 10px 0;
+      width: 100%;
+  }
+}

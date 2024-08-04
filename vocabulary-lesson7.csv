@@ -1,0 +1,48 @@
+Korean,Correct,Wrong,WrongKorean
+커튼,curtain,sofa,소파
+소파,sofa,chair,의자
+의자,chair,table,테이블
+테이블,table,desk,책상
+책상,desk,bed,침대
+침대,bed,wardrobe,옷장
+옷장,wardrobe,drawer,서랍
+서랍,drawer,shelf,선반
+선반,shelf,cabinet,장식장
+장식장,cabinet,cupboard,찬장
+찬장,cupboard,mirror,거울
+거울,mirror,clock,시계
+시계,clock,lamp,램프
+램프,lamp,light,전등
+전등,light,fan,선풍기
+선풍기,fan,heater,히터
+히터,heater,air conditioner,에어컨
+에어컨,air conditioner,television,텔레비전
+텔레비전,television,radio,라디오
+라디오,radio,speaker,스피커
+스피커,speaker,phone,전화기
+전화기,phone,computer,컴퓨터
+컴퓨터,computer,printer,프린터
+프린터,printer,washing machine,세탁기
+세탁기,washing machine,refrigerator,냉장고
+냉장고,refrigerator,oven,오븐
+오븐,oven,microwave,전자레인지
+전자레인지,microwave,toaster,토스터
+토스터,toaster,kettle,주전자
+주전자,kettle,blender,믹서기
+믹서기,blender,coffeemaker,커피머신
+커피머신,coffeemaker,iron,다리미
+다리미,iron,vacuum cleaner,청소기
+청소기,vacuum cleaner,broom,빗자루
+빗자루,broom,mop,걸레
+걸레,mop,bucket,양동이
+양동이,bucket,trash can,쓰레기통
+쓰레기통,trash can,detergent,세제
+세제,detergent,sponge,스펀지
+스펀지,sponge,brush,브러시
+브러시,brush,towel,수건
+수건,towel,soap,비누
+비누,soap,shampoo,샴푸
+샴푸,shampoo,toothpaste,치약
+치약,toothpaste,toothbrush,칫솔
+칫솔,toothbrush,floss,치실
+치실,floss,tissue,티슈

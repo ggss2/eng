@@ -1,0 +1,50 @@
+Korean,Correct,Wrong,WrongKorean
+피아노,piano,violin,바이올린
+바이올린,violin,piano,피아노
+기타,guitar,drum,드럼
+드럼,drum,flute,플루트
+플루트,flute,clarinet,클라리넷
+클라리넷,clarinet,trumpet,트럼펫
+트럼펫,trumpet,trombone,트럼본
+트럼본,trombone,saxophone,색소폰
+색소폰,saxophone,tuba,튜바
+튜바,tuba,oboe,오보에
+오보에,oboe,accordion,아코디언
+아코디언,accordion,harp,하프
+하프,harp,viola,비올라
+비올라,viola,cello,첼로
+첼로,cello,double bass,콘트라베이스
+콘트라베이스,double bass,banjo,밴조
+밴조,banjo,ukulele,우쿨렐레
+우쿨렐레,ukulele,mandolin,만돌린
+만돌린,mandolin,harmonica,하모니카
+하모니카,harmonica,xylophone,실로폰
+실로폰,xylophone,marimba,마림바
+마림바,marimba,vibraphone,비브라폰
+비브라폰,vibraphone,glockenspiel,글로켄슈필
+글로켄슈필,glockenspiel,tambourine,탬버린
+탬버린,tambourine,cymbals,심벌즈
+심벌즈,cymbals,triangle,트라이앵글
+트라이앵글,triangle,cowbell,카우벨
+카우벨,cowbell,bongo,봉고
+봉고,bongo,conga,콩가
+콩가,conga,djembe,젬베
+젬베,djembe,tabla,타블라
+타블라,tabla,sitar,시타르
+시타르,sitar,didgeridoo,디저리두
+디저리두,didgeridoo,pan flute,팬플루트
+팬플루트,pan flute,ocarina,오카리나
+오카리나,ocarina,zither,치터
+치터,zither,lute,루트
+루트,lute,lyre,리라
+리라,lyre,kalimba,칼림바
+칼림바,kalimba,bagpipes,백파이프
+백파이프,bagpipes,accordion,아코디언
+아코디언,accordion,keyboard,키보드
+키보드,keyboard,synthesizer,신디사이저
+신디사이저,synthesizer,electric guitar,일렉기타
+일렉기타,electric guitar,bass guitar,베이스기타
+베이스기타,bass guitar,horn,호른
+호른,horn,french horn,프렌치호른
+프렌치호른,french horn,bugle,부글
+부글,bugle,fiddle,바이올린

@@ -1,0 +1,48 @@
+Korean,Correct,Wrong,WrongKorean
+학교,school,classroom,교실
+교실,classroom,teacher,선생님
+선생님,teacher,student,학생
+학생,student,desk,책상
+책상,desk,chair,의자
+의자,chair,blackboard,칠판
+칠판,blackboard,whiteboard,화이트보드
+화이트보드,whiteboard,marker,마커
+마커,marker,pen,펜
+펜,pen,pencil,연필
+연필,pencil,eraser,지우개
+지우개,eraser,notebook,노트
+노트,notebook,textbook,교과서
+교과서,textbook,book,책
+책,book,library,도서관
+도서관,library,computer,컴퓨터
+컴퓨터,computer,printer,프린터
+프린터,printer,projector,프로젝터
+프로젝터,projector,screen,화면
+화면,screen,window,창문
+창문,window,door,문
+문,door,lock,자물쇠
+자물쇠,lock,key,열쇠
+열쇠,key,lunchbox,도시락
+도시락,lunchbox,bag,가방
+가방,bag,school bus,학교버스
+학교버스,school bus,uniform,교복
+교복,uniform,lesson,수업
+수업,lesson,homework,숙제
+숙제,homework,exam,시험
+시험,exam,grade,성적
+성적,grade,report,보고서
+보고서,report,science,과학
+과학,science,math,수학
+수학,math,history,역사
+역사,history,geography,지리
+지리,geography,art,미술
+미술,art,music,음악
+음악,music,physical education,체육
+체육,physical education,lunch,점심
+점심,lunch,breakfast,아침식사
+아침식사,breakfast,dinner,저녁식사
+저녁식사,dinner,recess,쉬는 시간
+쉬는 시간,recess,assembly,모임
+모임,assembly,meeting,회의
+회의,meeting,club,동아리
+동아리,club,activity,활동
