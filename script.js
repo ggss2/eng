@@ -6,6 +6,7 @@ let synth = window.speechSynthesis;
 let voices = [];
 let recognition;
 let speaking = false; // Flag to track if speaking is in progress
+let isListening = false; // Flag to track if recognition is in progress
 
 document.addEventListener('DOMContentLoaded', function () {
     initializeSpeechRecognition();
@@ -64,10 +65,11 @@ function nextWord() {
     wordCard.innerHTML = `
         <p class="korean-word">${currentWord.korean}</p>
         <button class="choice" onclick="checkAnswer(this)">${choices[0]}</button>
-                <button class="choice" onclick="checkAnswer(this)">${choices[1]}</button>
+        <button class="choice" onclick="checkAnswer(this)">${choices[1]}</button>
     `;
     document.getElementById('result').textContent = '';
     document.getElementById('voice-input-box').innerHTML = '<p>정답을 말해보세요</p>';
+    document.getElementById('voice-input-box').style.backgroundColor = isListening ? 'skyblue' : 'transparent';
     document.getElementById('question-number').textContent = `Question ${questionNumber}`;
     startSpeechRecognition();
 }
@@ -106,12 +108,15 @@ function checkAnswer(button) {
         // Call the function with controlled speaking
         speakWordNTimes(currentWord.correct, 3); // Read the correct answer 3 times
     } else {
-        resultElement.textContent = '틀렸습니다. 다시 시도하세요.';
+        const wrongKorean = currentWord.wrongKorean;
+        resultElement.textContent = `틀렸습니다. 다시 시도하세요. (${button.textContent} - ${wrongKorean})`;
         resultElement.style.color = 'red';
         score = Math.max(0, score - 2);
         playAudio('incorrect-audio');
+
         // Enable buttons again for retry
         buttons.forEach(btn => btn.disabled = false);
+
         return; // Exit function on incorrect answer
     }
     updateScore();
@@ -170,6 +175,16 @@ function initializeSpeechRecognition() {
         recognition.continuous = true;
         recognition.interimResults = true;
 
+        recognition.onstart = function () {
+            isListening = true;
+            document.getElementById('voice-input-box').style.backgroundColor = 'skyblue'; // Change box color when listening
+        };
+
+        recognition.onend = function () {
+            isListening = false;
+            document.getElementById('voice-input-box').style.backgroundColor = 'transparent'; // Revert box color when not listening
+        };
+
         recognition.onresult = function (event) {
             const voiceInputBox = document.getElementById('voice-input-box');
             let interimTranscript = '';
@@ -194,11 +209,9 @@ function initializeSpeechRecognition() {
 
         recognition.onerror = function (event) {
             console.error('Speech recognition error', event.error);
-        };
-
-        recognition.onend = function () {
-            console.log('Speech recognition ended. Waiting for user input...');
-            // Don't restart automatically; let the user decide when to listen again
+            recognition.stop();
+            isListening = false;
+            document.getElementById('voice-input-box').style.backgroundColor = 'transparent'; // Reset background color on error
         };
     } else {
         console.error('Speech recognition is not supported in this browser.');
@@ -227,36 +240,36 @@ function populateVoiceList() {
             option.setAttribute('data-lang', voice.lang);
             option.setAttribute('data-name', voice.name);
             voiceSelect.appendChild(option);
-        }
-    });
+            }
+            });
 
-    // Log available voices for debugging
-    console.log('Available voices:', voices);
+            // Log available voices for debugging
+            console.log('Available voices:', voices);
 
-    // Set default voice if not selected
-    if (!voiceSelect.value && voices.length > 0) {
-        voiceSelect.selectedIndex = 0;
-    }
-}
+            // Set default voice if not selected
+            if (!voiceSelect.value && voices.length > 0) {
+            voiceSelect.selectedIndex = 0;
+            }
+            }
 
-function endGame() {
-    const wordCard = document.getElementById('word-card');
-    wordCard.innerHTML = '<h2>축하합니다! 학습을 완료했습니다.</h2>';
-    document.getElementById('voice-input-box').style.display = 'none';
-    document.getElementById('voice-input-btn').style.display = 'none';
-}
+            function endGame() {
+            const wordCard = document.getElementById('word-card');
+            wordCard.innerHTML = '<h2>축하합니다! 학습을 완료했습니다.</h2>';
+            document.getElementById('voice-input-box').style.display = 'none';
+            document.getElementById('voice-input-btn').style.display = 'none';
+            }
 
-function playAudio(id) {
-    const audio = document.getElementById(id);
-    audio.play();
-}
+            function playAudio(id) {
+            const audio = document.getElementById(id);
+            audio.play();
+            }
 
-document.getElementById('voice-input-btn').addEventListener('click', () => {
-    if (!synth.speaking && !speaking) {
-        startSpeechRecognition();
-    }
-});
+            document.getElementById('voice-input-btn').addEventListener('click', () => {
+            if (!synth.speaking && !speaking) {
+            startSpeechRecognition();
+            }
+            });
 
-document.getElementById('rate').addEventListener('input', function () {
-    document.getElementById('rate-value').textContent = this.value;
-});
+            document.getElementById('rate').addEventListener('input', function () {
+            document.getElementById('rate-value').textContent = this.value;
+            });
