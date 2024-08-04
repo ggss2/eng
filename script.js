@@ -113,10 +113,10 @@ function checkAnswer(button) {
         resultElement.style.color = 'red';
         score = Math.max(0, score - 2);
         playAudio('incorrect-audio');
-
+        
         // Enable buttons again for retry
         buttons.forEach(btn => btn.disabled = false);
-
+        
         return; // Exit function on incorrect answer
     }
     updateScore();
@@ -235,41 +235,41 @@ function populateVoiceList() {
     // Add US English voices
     voices.forEach((voice) => {
         if (voice.lang === 'en-US') {
-            const option = document.createElement('option');
+                        const option = document.createElement('option');
             option.textContent = `${voice.name} (${voice.lang})`;
             option.setAttribute('data-lang', voice.lang);
             option.setAttribute('data-name', voice.name);
             voiceSelect.appendChild(option);
-            }
-            });
+        }
+    });
 
-            // Log available voices for debugging
-            console.log('Available voices:', voices);
+    // Log available voices for debugging
+    console.log('Available voices:', voices);
 
-            // Set default voice if not selected
-            if (!voiceSelect.value && voices.length > 0) {
-            voiceSelect.selectedIndex = 0;
-            }
-            }
+    // Set default voice if not selected
+    if (!voiceSelect.value && voices.length > 0) {
+        voiceSelect.selectedIndex = 0;
+    }
+}
 
-            function endGame() {
-            const wordCard = document.getElementById('word-card');
-            wordCard.innerHTML = '<h2>축하합니다! 학습을 완료했습니다.</h2>';
-            document.getElementById('voice-input-box').style.display = 'none';
-            document.getElementById('voice-input-btn').style.display = 'none';
-            }
+function endGame() {
+    const wordCard = document.getElementById('word-card');
+    wordCard.innerHTML = '<h2>축하합니다! 학습을 완료했습니다.</h2>';
+    document.getElementById('voice-input-box').style.display = 'none';
+    document.getElementById('voice-input-btn').style.display = 'none';
+}
 
-            function playAudio(id) {
-            const audio = document.getElementById(id);
-            audio.play();
-            }
+function playAudio(id) {
+    const audio = document.getElementById(id);
+    audio.play();
+}
 
-            document.getElementById('voice-input-btn').addEventListener('click', () => {
-            if (!synth.speaking && !speaking) {
-            startSpeechRecognition();
-            }
-            });
+document.getElementById('voice-input-btn').addEventListener('click', () => {
+    if (!synth.speaking && !speaking) {
+        startSpeechRecognition();
+    }
+});
 
-            document.getElementById('rate').addEventListener('input', function () {
-            document.getElementById('rate-value').textContent = this.value;
-            });
+document.getElementById('rate').addEventListener('input', function () {
+    document.getElementById('rate-value').textContent = this.value;
+});
