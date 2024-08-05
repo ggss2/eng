@@ -50,7 +50,7 @@ Korean,Correct,Wrong,WrongKorean
 쥐,mouse,rat,쥐
 햄스터,hamster,gerbil,저빌
 저빌,gerbil,hamster,햄스터
-사자,leopard,puma,퓨마
-퓨마,puma,leopard,사자
-표범,cheetah,panther,팬더
+표범,leopard,puma,퓨마
+퓨마,puma,leopard,표범
+치타,cheetah,panda,팬더
 팬더,panther,cheetah,표범
