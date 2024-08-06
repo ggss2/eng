@@ -47,9 +47,46 @@ Korean,Correct,Wrong,WrongKorean
 기린,giraffe,zebra,얼룩말
 얼룩말,zebra,giraffe,기린
 쥐,rat,mouse,쥐
-쥐,mouse,rat,쥐
 햄스터,hamster,gerbil,저빌
 표범,leopard,puma,퓨마
 퓨마,puma,leopard,표범
 치타,cheetah,panda,팬더
-팬더,panther,cheetah,표범
+팬더,panda,cheetah,치타
+늑대,wolf,fox,여우
+여우,fox,wolf,늑대
+고슴도치,hedgehog,porcupine,호저
+호저,porcupine,hedgehog,고슴도치
+하마,hippopotamus,rhinoceros,코뿔소
+코뿔소,rhinoceros,hippopotamus,하마
+수달,otter,beaver,비버
+비버,beaver,otter,수달
+원앙,mandarin duck,peacock,공작새
+공작새,peacock,mandarin duck,원앙
+알파카,alpaca,llama,라마
+라마,llama,alpaca,알파카
+바다표범,seal,walrus,바다코끼리
+바다코끼리,walrus,seal,바다표범
+두루미,crane,stork,황새
+황새,stork,crane,두루미
+부엉이,owl,eagle,독수리
+독수리,eagle,owl,부엉이
+까치,magpie,rook,떼까마귀
+너구리,raccoon,skunk,스컹크
+스컹크,skunk,raccoon,너구리
+침팬지,chimpanzee,orangutan,오랑우탄
+오랑우탄,orangutan,chimpanzee,침팬지
+족제비,weasel,mongoose,몽구스
+몽구스,mongoose,weasel,족제비
+바다사자,sea lion,seal,바다표범
+산양,ibex,goat,염소
+들소,bison,buffalo,버팔로
+버팔로,buffalo,bison,들소
+미어캣,meerkat,prairie dog,프레리도그
+프레리도그,prairie dog,meerkat,미어캣
+두더지,mole,vole,밭쥐
+밭쥐,vole,mole,두더지
+벌새,hummingbird,sparrow,참새
+아나콘다,anaconda,python,비단뱀
+비단뱀,python,anaconda,아나콘다
+긴팔원숭이,gibbon,lemur,여우원숭이
+여우원숭이,lemur,gibbon,긴팔원숭이
